@@ -1,10 +1,3 @@
-/*All the HTML5 new elements (The new semantic elements) that you have used in your code should be
-displayed as block-level elements (for old browsers that don’t support them), so make sure to
-follow/add the rule for that. (Please check my in-class notes/code)*/
-*{
-    display: block;
-}
-
 /*2. The <body> element has to be styled with:
 a. Any colour you prefer for the text
 b. A background image, you can use any one from the 7 samples of dark-woodx.jpg. So, pick the
@@ -17,6 +10,7 @@ c. The font family (face) is at least 3 options of any sans-serif fonts
 d. Margin 0 for all the four sides (top, bottom, left, right)*/
 
 body{
+    display: block;
     color: #fff;
     background: url("../assets/images/dark-wood1.jpg");
     font-family: 'Open Sans Regular','consolas', sans-serif;
@@ -36,6 +30,7 @@ d. Apply any background colour that you prefer
 a. The line height (of the text) should be 1.4em
 b. 10px padding to all the sides*/
 .container{
+    display: block;
     width: 950px;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -49,6 +44,7 @@ b. 10px padding to all the sides*/
 a. Any Dark/Light background colour
 b. Any Dark/Light foreground colour (normal font colour)*/
 header,nav,footer{
+    display: block;
     background-color: #555;
     color: #eee;
 }
@@ -56,6 +52,7 @@ header,nav,footer{
 /*6. Style the unordered list element <ul> which is inside <nav> element (styling only a ul child of any nav
 element)*/
 nav ul {
+    display: block;
     margin: 0;
     padding: 5px;
 }
@@ -67,6 +64,7 @@ a. To be displayed horizontally (Remember that <li> is a block-level element)
 b. Adding margin of 40px to the right of each list item
 c. All the navigation items should be displayed as Uppercase*/
 nav li{
+    display: block;
     display: inline;
     margin-right: 40px;
     text-transform: uppercase;
@@ -79,15 +77,19 @@ b. The visited link  :visited
 c. The hover link  :hover
 d. The active link  :active*/
 nav a:link{
+    display: block;
     color: #f22;
 }
 nav a:visited{
+    display: block;
     color: #f2f;
 }
 nav a:hover{
+    display: block;
     color: #f88;
 }
 nav a:active{
+    display: block;
     color: #00f;
 }
 
@@ -95,6 +97,7 @@ nav a:active{
 a. Any colour you like
 b. No underline*/
 a{
+    display: block;
     color: #f22;
     text-decoration: none;
 }
@@ -104,6 +107,7 @@ a. To have margin of 10px for all the sides
 b. With Uppercase letters
 c. Different dark/light colour*/
 h1,h2,h3{
+    display: block;
     margin: 10px;
     text-transform: uppercase;
     color: #0f8;
@@ -115,6 +119,7 @@ need to make it block level element first in order to have it to work with margi
 b. Having margin of 5px from the top and bottom
 c. Having padding of 2px to all the sides*/
 .img-centre{
+    display: block;
     display: block;
     margin-top: 5px;
     margin-bottom: 5px;
@@ -129,6 +134,7 @@ a. Centre any audio or video element (horizontally)
 b. With margin of 10px from the top and bottom*/
 audio,video{
     display: block;
+    display: block;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: auto;
@@ -140,6 +146,7 @@ a. The width is 800px
 b. Centre the table horizontally with 10px of margining from the top and bottom sides
 c. The table border has to be collapsed*/
 table{
+    display: block;
     width: 800px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -163,6 +170,7 @@ a. With Uppercase letters
 b. Any background colour (dark/light)
 c. Any colour (dark/light)*/
 th{
+    display: block;
     text-transform: uppercase;
     background-color: #555;
     color: #fff;
@@ -172,6 +180,7 @@ th{
 a. Make it bold*/
 
 dt{
+    display: block;
     font-weight: bold;
 }
 
@@ -180,6 +189,7 @@ a. Change the font size to be 80% of the default font size or of the font size o
 b. Align your text to the centre of the table
 c. Add 1px of padding from the top/bottom and 0 from the right/left*/
 footer{
+    display: block;
     font-size: 80%;
     text-align: center;
     padding: 1px 0;
@@ -190,6 +200,7 @@ a. Add margin of 10px for top/bottom
 b. Centre the iframe horizontally (Hint: don’t forget that <iframe> is an inline element so you will
 need to make it block level element first)*/
 iframe{
+    display: block;
     display: block;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -203,6 +214,7 @@ b. Add margin of 20px for top/bottom and centre the fieldset horizontally
 c. Add border with any style you prefer
 d. Add background colour*/
 fieldset{
+    display: block;
     width: 500px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -219,6 +231,7 @@ c. Margin of 0 from the top/bottom and 10px from the left/right
 d. Padding of 0 from top/bottom and 5px from the left/right
 e. Give it a rounded border with any size or setting you prefer*/
 legend{
+    display: block;
     font-style: italic;
     color: #fff;
     background-color: #222;
@@ -233,6 +246,7 @@ b. Padding of 5px for all the sides
 c. Any background colour you prefer
 d. Any colour you prefer*/
 input[type="submit"]{
+    display: block;
     border: 1px solid #11f;
     padding: 5px;
     background-color: #aaa;
@@ -243,6 +257,7 @@ the pseudo class for the hover state (when you hover the mouse over the element)
 a. Change its text colour and its background colour
 b. Change the mouse pointer to look like a hand (the normal mouse icon for a link):*/
 input[type="submit"]:hover{
+    display: block;
     color: #fff;
     background-color: #000;
     cursor: pointer;
